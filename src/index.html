@@ -57,314 +57,391 @@ eleventyNavigation:
 {% block body %}
 
     <!-- ============================================ -->
-    <!--                    Hero                      -->
-    <!-- ============================================ -->
+<!--                   Hero                       -->
+<!-- ============================================ -->
 
-    <section id="hero">
-        <div class="cs-container">
-            <div class="cs-flex-group">
-                <span class="cs-topper">mountain hiking society</span>
-                <h1 class="cs-title">Explore the World with Exciting People</h1>
-                <p class="cs-text">
-                    Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
-                </p>
-                <a href="/about" class="cs-button-solid">Explore More</a>
-                <a href="/contact" class="cs-button-transparent">
-                    <img
-                    class="cs-img"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-                    alt="play icon"
-                    width="17"
-                    height="17"/>
-                    Get in Touch
-                </a>
-            </div>
-        </div>
-
-        <!-- Background Image -->
-        <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp">
-            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="new home" width="2500" height="1667" loading="eager">
-        </picture>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                  Services                    -->
-    <!-- ============================================ -->
-
-    <section id="services" class="services">
-        <!-- Get Icons From flaticon.com -->
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service1.svg"
-                alt="appliance"
-                width="48"
-                height="48"/>
-            </picture>
-            <h2>Service 1</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service2.svg"
-                alt="appliance"
-                width="48"
-                height="48"/>
-            </picture>
-            <h2>Service 2</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service3.svg"
-                alt="appliance"
-                width="48"
-                height="48"/>
-            </picture>
-            <h2>Service 3</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img 
-                    class="cs-quote-icon"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
-                    alt="gavel"
-                    width="136"
-                    height="77"/>
-                </div>
-                <a href="/about" class="cs-button-solid">More About Us</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--            Extra Content To Rank             -->
-    <!-- ============================================ -->
-
-    <section id="sbs-r">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="560">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="560">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">SEO Ranking</span>
-                <h2 class="cs-title">Talk about a main service keyword</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos.
-                </p>
-                <a href="/blog" class="cs-button-solid">Read our Blog</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Gallery                    -->
-    <!-- ============================================ -->
-
-    <section id="gallery">
-        <div class="cs-container">
-            <span class="cs-topper">Our Portfolio</span>
-            <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-            <div class="cs-image-group">
-                <!-- Row 1-->
-                <div class="cs-row cs-row-1">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port1-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port1.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port1.jpg" alt="new hallway" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port4-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port4.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port4.jpg" alt="new home construction" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port7-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port7.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port7.jpg" alt="building a new wall" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 2 -->
-                <div class="cs-row cs-row-2">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port2-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port2.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port2.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port5-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port5.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port5.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port8-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port8.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port8.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 3 -->
-                <div class="cs-row cs-row-3">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port3-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port3.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port3.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port6-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port6.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port6.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port9-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port9.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port9.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-
-                </div>
-            </div>
-            <a href="/projects" class="cs-button-solid">View Full Gallery</a>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Reviews                    -->
-    <!-- ============================================ -->
-
-    <section id="reviews">
-        <div class="cs-container">
-            <span class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">Words From Our Customers</h2>
+<section id="hero-2349">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Minnesota Fiscal Agency</span>
+            <h2 class="cs-title">Professinal Financial Management</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+                RedOne Fiscal Agent provide financial managment services (FMS) for individuals receiving personal assistance in their home who choose self-directed services.
             </p>
-            <ul class="cs-card-group">
-                <!-- Review 1 -->
-                <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80"/>
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jon Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16"/>
-                </li>
-                <!-- Review 2 -->
-                <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80"/>
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jane Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16"/>
-                </li>
-            </ul>
-            <a aria-label="read more reviews" href="/reviews" class="cs-button-solid">Our Reviews</a>
+            <a href="" class="cs-button-solid">Book A Call</a>
         </div>
-    </section>
+    </div>
+    <ul class="cs-stats">
+        <li class="cs-item">
+            <span class="cs-number">
+                <span class="cs-color">+</span>
+                100
+            </span>
+            <span class="cs-desc">Happy Clients</span>
+        </li>
+        <li class="cs-item">
+            <span class="cs-number">
+                <span class="cs-color">+</span>
+                99
+            </span>
+            <span class="cs-desc">Partners</span>
+        </li>
+        <li class="cs-item">
+            <span class="cs-number">
+                <span class="cs-color">+</span>
+                1.4K
+            </span>
+            <span class="cs-desc">Completed Projects</span>
+        </li>
+    </ul>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/minnesota.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/minnesota.jpg">
+        <img decoding="async" src="/assets/images/minnesota.jpg" alt="fancy modern architecture" width="1800" height="860">
+    </picture>
+</section>
+           
+<!-- ============================================ -->
+<!--                 Services                     -->
+<!-- ============================================ -->
+                                
+<section id="services-2349">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <a href="" class="cs-link">
+                <img class="cs-icon" decoding="async" src="/assets/svgs/customer-service.svg" alt="icon" width="24" height="24">
+                <h2 class="cs-h2">Services For Participant Employers</h2>
+                <p class="cs-item-text">
+                    Redone collaborates closely with individuals and employers who opt for the self-directed care model to remain in their homes, as opposed to the conventional approach of receiving care in a facility. 
+                </p>
+            </a>
+        </li>
+        <li class="cs-item">
+            <a href="" class="cs-link">
+                <img class="cs-icon" decoding="async" src="/assets/svgs/help-desk.svg" alt="icon" width="24" height="24">
+                <h2 class="cs-h2">Services For Direct Care Employees</h2>
+                <p class="cs-item-text">
+                    Redone offers a range of employee services, encompassing Electronic Visit Verification (EVV), payroll management, tax compliance, and notifications
+                </p>
+            </a>
+        </li>
+        <li class="cs-item">
+            <a href="" class="cs-link">
+                <img class="cs-icon" decoding="async" src="/assets/svgs/documents.svg" alt="icon" width="24" height="24">
+                <h2 class="cs-h2">Documents & Information</h2>
+                <p class="cs-item-text">
+                    Both participants and direct care employees will discover our carefully selected resource list to be both convenient and beneficial.
+                </p>
+            </a>
+        </li>
+        <li class="cs-item">
+            <a href="" class="cs-link">
+                <img class="cs-icon" decoding="async" src="/assets/svgs/checklist.svg" alt="icon" width="24" height="24">
+                <h2 class="cs-h2">And More</h2>
+                <p class="cs-item-text">
+                    See all that RedOne Fiscal Agent has to offer. We are here to help you with all your financial management needs.
+                </p>
+            </a>
+        </li>
+    </ul>
+</section>
+              
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-2291">
+    <div class="cs-container">
+        <!-- Left Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Funding Partners</span>
+            <h2 class="cs-title">We Thank You</h2>
+            <p class="cs-text">
+                Redone could not do the work we do without the financial backing of our funding partners. We work with programs at the federal and state level, as well as managed care organizations, county programs, and Veteran’s programs. Together we provide a unique individualized level of service through a compassionate, personalized agent model of care. Level of service delivery is tailored to meet each participant’s needs.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Read More</a>
+        </div>
+        <!-- Right Image Section -->
+        <div class="cs-image-group">
+            <!--Floating Box-->
+            <div class="cs-box">
+                <span class="cs-number">$22K+</span>
+                <div class="cs-flex">
+                    <h3 class="cs-heading">In Financial Backing</h3>
+                    <span class="cs-desc">Allow us to serve you better.</span>
+                </div>
+            </div>
+            <!--Image-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction3.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction3.jpg" alt="meeting" width="630" height="630" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+</section>
+<div class="custom-shape-divider-bottom-1749837174">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
+<style>
+    .custom-shape-divider-bottom-1749837174 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1749837174 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-bottom-1749837174 .shape-fill {
+    fill: #FBF9F5;
+}
+</style>
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbsr-2374">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Responsibilities</span>
+            <h2 class="cs-title">RedOne's Commitment </h2>
+            <p class="cs-text">
+                The Roles And Responsibilities Of Each Member In The Self-Directed Model Fiscal Intermediary (RedOne) Responsibilities
+            </p>
+        </div>
+        <div class="cs-flex">
+            <div class="cs-content2">
+                <!-- <h3 class="cs-h3">Personal Growth Therapy</h3>
+                <p class="cs-text">
+                    Explore emotional healing and confidence-building through personalized therapy for meaningful transformation.
+                </p> -->
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/check.svg" alt="checkmark" width="24" height="24">
+                        Facilitates the enrollment process for participants, employers, and employees by gathering all essential documentation required by the IRS, state, local taxing authorities, and the Department of Labor.
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/check.svg" alt="checkmark" width="24" height="24">
+                        RedOne ensures compliance with all employer and employee tax withholding and reporting obligations. This encompasses managing employee payroll deductions, handling employer payments, and submitting both employer and employee taxes to state, federal, and local tax authorities on behalf of the employer.
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/check.svg" alt="checkmark" width="24" height="24">
+                        Manages and generates employee W-2 and 1099 forms for vendors and subcontractors.
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/check.svg" alt="checkmark" width="24" height="24">
+                        Supplies reports and account statements that enable the employer to monitor spending plans, including authorizations and budgets.
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/check.svg" alt="checkmark" width="24" height="24">
+                        Administers payroll processing and subsequently invoices the funding source.
+                    </li>
+                </ul>
+                <a href="" class="cs-link">Call Now</a>
+            </div>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/image1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/image1.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/image1.jpg" alt="people talking" width="528" height="378">
+            </picture>
+        </div>
+    </div>
+</section>
+                 
+
+
+<div class="custom-shape-divider-bottom-1749837730">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<style>
+    .custom-shape-divider-bottom-1749837730 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1749837730 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1749837730 .shape-fill {
+    fill: #FBF9F5;
+}
+</style>
+                                
+<!-- ============================================ -->
+<!--                  Side By Side                -->
+<!-- ============================================ -->
+
+<section id="sbs-2378">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people9.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people9.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people9.jpg" alt="people" width="586" height="690">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Our Mission Statement</span>
+            <h2 class="cs-title">For Freedom, Choice and Opportunity</h2>
+            <p class="cs-text">
+                Redone Fiscal Agent facilitates freedom, choice, and opportunity through innovative fiscal agent solutions.
+            </p>
+            <a href="" class="cs-button-solid">Start Your Journey Today</a>
+
+            
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-2378">
+    <div class="cs-container">
+        <h2 class="cs-title" style="margin-top: 2rem;">Our Values</h2>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/partnership.svg" alt="icon" width="120" height="120">
+                <h3 class="cs-h3">Customer Satisfaction</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/auriculotherapy.svg" alt="icon" width="120" height="120">
+                <h3 class="cs-h3">Listening</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/stopwatch.svg" alt="icon" width="120" height="120">
+                <h3 class="cs-h3">Promt & Courteous Resolution To Issues</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/networking.svg" alt="icon" width="120" height="120">
+                <h3 class="cs-h3">Building Relationships</h3>
+            </li>
+        </ul>
+    </div>
+</section>
+                 <!-- ============================================ -->
+<!--                    Services                  -->
+<!-- ============================================ -->
+
+<section id="services-1304">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Definitions</span>
+                <h2 class="cs-title">RedOne's Terminology Defined</h2>
+            </div>
+            <!-- <p class="cs-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+            </p> -->
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/wave.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">RedOne</h3>
+                    <p class="cs-item-text">
+                       RedOne is the fiscal agent that assists you in effectively managing financial and other employer-related responsibilities associated with your self-directed services. Please note that RedOne is not the employer.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/authorization.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">Service Authorization</h3>
+                    <p class="cs-item-text">
+                        Documentation outlining authorized services, service codes, and the allocated quantity in terms of units, hours, or monetary value for the provision of goods and services as outlined in the service plan.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/united.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">Case Manager/ Support Coordinator</h3>
+                    <p class="cs-item-text">
+                        A program-assigned individual who collaborates with you to coordinate the intricacies of your self-directed program. Please note that this role's title may vary depending on the specific program's terminology.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/employee.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">Employee</h3>
+                    <p class="cs-item-text">
+                        Direct care employees are individuals employed by you to deliver services to the participant.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/hire.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">Employer</h3>
+                    <p class="cs-item-text">
+                        The employer is the individual responsible for recruiting and overseeing the staff providing services to the participant. The participant may also assume the role of the employer.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/work-from-home.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">EVV</h3>
+                    <p class="cs-item-text">
+                        Electronic Visit Verification (EVV) is utilized to accurately record the caregiver's time spent providing care to the participant, as mandated by regulations.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/taxes.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">Fiscal Agent/Fiscal Intermediary</h3>
+                    <p class="cs-item-text">
+                        RedOne offers payroll processing, tax-related services, vendor payments, and various administrative functions as stipulated and authorized by the funding program.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="/assets/svgs/team.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                    <h3 class="cs-h3">Participant</h3>
+                    <p class="cs-item-text">
+                       An individual receiving services authorized by the funding program. The participant may also act as the employer in certain cases.
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
 
     {% include 'components/cta.html' %}
 {% endblock %}
